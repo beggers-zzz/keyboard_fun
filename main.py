@@ -68,8 +68,7 @@ def report_matches(matches):
             print("%s\t\t%s" % match)
 
 
-# {qwerty -> dvorak} character. On qwerty, q = 1, w = 2, etc. We're also going
-# to add ', ,, ;, and . because they're used as letters on the dvorak keyboard.
+# {qwerty -> dvorak} characters.
 CHAR_MAP = {
         'q': '\'',
         'w': ',',
