@@ -55,7 +55,7 @@ def main():
     # see if the dvorak-ized version of any word is also in our set
     for word in words:
         dv = dvorakize(word)
-        if dv in words:
+        if dv in words and not trivial(dv, 3):
             report_match(word, dv)
 
 
@@ -64,6 +64,18 @@ def dvorakize(word):
     for c in word:
         dv += CHAR_MAP[c]
     return dv
+
+
+def trivial(word, length):
+    """
+    'a' and 'm' are the same in qwerty and dvorak, so if any word is composed
+    of mostly these, we'll throw it away. We'll also allow throw away words
+    shorter than the passed length.
+    """
+    bad_chars = word.count('a') + word.count('m')
+    if bad_chars >= len(word) / 2. or len(word) <= length:
+        return True
+    return False
 
 
 def report_match(q, dv):
