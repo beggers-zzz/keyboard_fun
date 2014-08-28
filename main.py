@@ -9,7 +9,20 @@ import argparse
 
 
 def main():
-    dict = open("dictionary.txt", "r")
+    parser = argparse.ArgumentParser(description="Find words in a \
+dictionary that come from the same sequence of key strokes, one on a qwerty \
+and the other on a dvorak keyboard. Skips words composed at least 50% of \
+a's and m's, since those are the same on qwerty and dvorak.")
+    parser.add_argument('--dict', dest='dict_file', action='store',
+                        type=str, default='dictionary.txt',
+                        help='The file to use as a dictionary. Must have \
+exactly one word per line. Defaults to ./dictionary.txt.')
+    parser.add_argument("--min", dest='min_length', action='store',
+                        type=int, default=3, help='Minimum length of a word \
+for it to be considered interesting enough to print. Defaults to 3.')
+    args = parser.parse_args()
+
+    dict = open(args.dict_file, "r")
 
     # throw those suckers in a set
     words = set()
@@ -21,7 +34,7 @@ def main():
     matches = []
     for word in words:
         dv = dvorakize(word)
-        if dv in words and not trivial(dv, 3):
+        if dv in words and not trivial(dv, args.min_length):
             matches.append((word, dv))
 
     report_matches(matches)
@@ -47,9 +60,12 @@ def trivial(word, length):
 
 
 def report_matches(matches):
-    print("QWERTY\t\tDVORAK\n")
-    for match in matches:
-        print("%s\t\t%s" % match)
+    if not matches:
+        print("No matches found, homes")
+    else:
+        print("QWERTY\t\tDVORAK\n")
+        for match in matches:
+            print("%s\t\t%s" % match)
 
 
 # {qwerty -> dvorak} character. On qwerty, q = 1, w = 2, etc. We're also going
