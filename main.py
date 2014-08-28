@@ -6,6 +6,9 @@
 
 # {qwerty -> dvorak} character. On qwerty, q = 1, w = 2, etc. We're also going
 # to add ', ,, ;, and . because they're used as letters on the dvorak keyboard.
+
+# I use a dvorak keyboard with a qwerty layout painted on the keys and
+# jesus was this hard.
 CHAR_MAP = {
         'q': '\'',
         'w': ',',
@@ -42,6 +45,26 @@ CHAR_MAP = {
 
 def main():
     dict = open("dictionary.txt", "r")
+
+    # throw those suckers in a set
+    words = set()
+    for line in dict:
+        assert len(line.split()) == 1  # sanity check
+        words.add(line)
+
+    # see if the dvorak-ized version of any word is also in our set
+    for word in words:
+        dv = dvorakize(word)
+        if dv in words:
+            report_match(word, dv)
+
+
+def dvorakize(word):
+    return "lol"
+
+
+def report(q, dv):
+    print("lol")
 
 
 if __name__ == "__main__":
