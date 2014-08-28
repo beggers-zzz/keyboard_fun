@@ -60,7 +60,10 @@ def main():
 
 
 def dvorakize(word):
-    return "lol"
+    dv = ""
+    for c in word:
+        dv += CHAR_MAP[c]
+    return dv
 
 
 def report(q, dv):
