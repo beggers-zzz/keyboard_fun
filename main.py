@@ -54,9 +54,7 @@ def trivial(word, length):
     shorter than the passed length.
     """
     bad_chars = word.count('a') + word.count('m')
-    if bad_chars >= len(word) / 2. or len(word) <= length:
-        return True
-    return False
+    return bad_chars >= (len(word) / 2.) or len(word) < length
 
 
 def report_matches(matches):
