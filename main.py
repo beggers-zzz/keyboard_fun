@@ -53,10 +53,13 @@ def main():
         words.add(line.lower()[:-1])
 
     # see if the dvorak-ized version of any word is also in our set
+    matches = []
     for word in words:
         dv = dvorakize(word)
         if dv in words and not trivial(dv, 3):
-            report_match(word, dv)
+            matches.append((word, dv))
+
+    report_matches(matches)
 
 
 def dvorakize(word):
@@ -78,8 +81,10 @@ def trivial(word, length):
     return False
 
 
-def report_match(q, dv):
-    print("%s in qwerty is %s in dvorak" % (q, dv))
+def report_matches(matches):
+    print("QWERTY\t\tDVORAK\n")
+    for match in matches:
+        print("%s\t\t%s" % match)
 
 
 if __name__ == "__main__":
