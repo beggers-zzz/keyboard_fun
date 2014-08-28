@@ -58,6 +58,7 @@ def trivial(word, length):
 
 
 def report_matches(matches):
+    matches.sort(key = lambda m: len(m[0]))
     if not matches:
         print("No matches found, homes")
     else:
