@@ -1,131 +1,26 @@
-lard in qwerty is nape in dvorak
-mats in qwerty is mayo in dvorak
-at in qwerty is ay in dvorak
-lar in qwerty is nap in dvorak
-kapa in qwerty is tala in dvorak
-ama in qwerty is ama in dvorak
-roam in qwerty is pram in dvorak
-rapt in qwerty is paly in dvorak
-ma in qwerty is ma in dvorak
-la in qwerty is na in dvorak
-ah in qwerty is ad in dvorak
-alt in qwerty is any in dvorak
-haj in qwerty is dah in dvorak
-say in qwerty is oaf in dvorak
-ya in qwerty is fa in dvorak
-pat in qwerty is lay in dvorak
-isba in qwerty is coxa in dvorak
-jam in qwerty is ham in dvorak
-ad in qwerty is ae in dvorak
-hap in qwerty is dal in dvorak
-hot in qwerty is dry in dvorak
-nap in qwerty is bal in dvorak
-slid in qwerty is once in dvorak
-argal in qwerty is apian in dvorak
-ha in qwerty is da in dvorak
-aa in qwerty is aa in dvorak
-sudd in qwerty is ogee in dvorak
-maud in qwerty is mage in dvorak
-dol in qwerty is ern in dvorak
-ham in qwerty is dam in dvorak
-raid in qwerty is pace in dvorak
-soap in qwerty is oral in dvorak
-kab in qwerty is tax in dvorak
-raj in qwerty is pah in dvorak
-tam in qwerty is yam in dvorak
-hamal in qwerty is daman in dvorak
-foh in qwerty is urd in dvorak
-taj in qwerty is yah in dvorak
-ugh in qwerty is gid in dvorak
-pah in qwerty is lad in dvorak
-us in qwerty is go in dvorak
-noo in qwerty is brr in dvorak
-odd in qwerty is ree in dvorak
-god in qwerty is ire in dvorak
-tao in qwerty is yar in dvorak
-kas in qwerty is tao in dvorak
-nogs in qwerty is brio in dvorak
-van in qwerty is kab in dvorak
-malt in qwerty is many in dvorak
-mm in qwerty is mm in dvorak
-nana in qwerty is baba in dvorak
-al in qwerty is an in dvorak
-rot in qwerty is pry in dvorak
-do in qwerty is er in dvorak
-psis in qwerty is loco in dvorak
-ados in qwerty is aero in dvorak
-land in qwerty is nabe in dvorak
-haha in qwerty is dada in dvorak
-panga in qwerty is labia in dvorak
-od in qwerty is re in dvorak
-raia in qwerty is paca in dvorak
-anna in qwerty is abba in dvorak
-ala in qwerty is ana in dvorak
-nah in qwerty is bad in dvorak
-fon in qwerty is urb in dvorak
-kava in qwerty is taka in dvorak
-ana in qwerty is aba in dvorak
-shh in qwerty is odd in dvorak
-ant in qwerty is aby in dvorak
-oat in qwerty is ray in dvorak
-pa in qwerty is la in dvorak
-pan in qwerty is lab in dvorak
-rap in qwerty is pal in dvorak
-cat in qwerty is jay in dvorak
-paid in qwerty is lace in dvorak
-kaf in qwerty is tau in dvorak
-card in qwerty is jape in dvorak
-can in qwerty is jab in dvorak
-vats in qwerty is kayo in dvorak
-gid in qwerty is ice in dvorak
-tav in qwerty is yak in dvorak
-oar in qwerty is rap in dvorak
-jar in qwerty is hap in dvorak
-yald in qwerty is fane in dvorak
-lad in qwerty is nae in dvorak
-rat in qwerty is pay in dvorak
-ta in qwerty is ya in dvorak
-oaks in qwerty is rato in dvorak
-pam in qwerty is lam in dvorak
-sh in qwerty is od in dvorak
-git in qwerty is icy in dvorak
-hah in qwerty is dad in dvorak
-halid in qwerty is dance in dvorak
-mat in qwerty is may in dvorak
-tat in qwerty is yay in dvorak
-dak in qwerty is eat in dvorak
-na in qwerty is ba in dvorak
-ag in qwerty is ai in dvorak
-vat in qwerty is kay in dvorak
-cam in qwerty is jam in dvorak
-vara in qwerty is kapa in dvorak
-mar in qwerty is map in dvorak
-flossy in qwerty is unroof in dvorak
-ago in qwerty is air in dvorak
-sod in qwerty is ore in dvorak
-ark in qwerty is apt in dvorak
-rosy in qwerty is prof in dvorak
-yah in qwerty is fad in dvorak
-aid in qwerty is ace in dvorak
-tar in qwerty is yap in dvorak
-hahs in qwerty is dado in dvorak
-hoard in qwerty is drape in dvorak
-son in qwerty is orb in dvorak
-oak in qwerty is rat in dvorak
-mad in qwerty is mae in dvorak
-mama in qwerty is mama in dvorak
-lat in qwerty is nay in dvorak
-hat in qwerty is day in dvorak
-flag in qwerty is unai in dvorak
-so in qwerty is or in dvorak
-yak in qwerty is fat in dvorak
-lam in qwerty is nam in dvorak
-nam in qwerty is bam in dvorak
-mamma in qwerty is mamma in dvorak
-maid in qwerty is mace in dvorak
-ka in qwerty is ta in dvorak
-am in qwerty is am in dvorak
-ram in qwerty is pam in dvorak
-par in qwerty is lap in dvorak
-fly in qwerty is unf in dvorak
-rah in qwerty is pad in dvorak
+QWERTY		DVORAK
+
+halid		dance
+hahs		dado
+isba		coxa
+paid		lace
+nogs		brio
+land		nabe
+ados		aero
+psis		loco
+argal		apian
+flag		unai
+hoard		drape
+oaks		rato
+flossy		unroof
+vats		kayo
+yald		fane
+rapt		paly
+sudd		ogee
+card		jape
+soap		oral
+lard		nape
+panga		labia
+raid		pace
+slid		once
+rosy		prof
