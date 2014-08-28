@@ -50,7 +50,7 @@ def main():
     words = set()
     for line in dict:
         assert len(line.split()) == 1  # sanity check
-        words.add(line)
+        words.add(line.lower()[:-1])
 
     # see if the dvorak-ized version of any word is also in our set
     for word in words:
@@ -66,8 +66,8 @@ def dvorakize(word):
     return dv
 
 
-def report(q, dv):
-    print("lol")
+def report_match(q, dv):
+    print("%s in qwerty is %s in dvorak" % (q, dv))
 
 
 if __name__ == "__main__":
